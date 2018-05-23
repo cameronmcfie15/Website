@@ -1,0 +1,88 @@
+/*Stlye for body of website*/
+body {
+    background-image: url("images/StarCitizen.jpg");
+    background-color: #cccccc;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    max-width: 1200px;
+    -webkit-font-smoothing: antialiased;
+    font-family: Palatino, Helvetica;
+}
+
+/* Style of Top navigation */
+.topnav {
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-color: white;
+    
+}
+
+/* Style for links inside the navigation bar */
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-color: white;
+    border: 0px solid;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Colour of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Colour to active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*Syle for the main content of the website*/
+.main {
+    padding-top: 0px;
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    
+}
+    
+iframe {
+    width: 560px;
+    height: 315px;
+    margin: 18px;
+    border: 2px solid;
+    border-color: white;
+}
+h1 {
+    color: aliceblue;
+    margin: auto;
+    font-family:serif;
+    text-align: center;
+    padding: 20px;
+}

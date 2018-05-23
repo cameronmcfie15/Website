@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg" />
+    <!--<link rel="stylesheet" type="text/css" href="main.css"/>-->
+    <meta name="author" content="Cameron McFie"/>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website dedicated to my projects."/>
+    <meta name="keywords" content="DahMooingCow, Gaming, PC, Projects, Code, Videos, Content"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'main.css' %}" type='text/css'/>
+    <!--<link rel="stylesheet" href="{% static 'main.css' %}" type='text/css'/>-->
+</head>
+<body>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>
